@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mappings xmlns="http://dozer.sourceforge.net"
+          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          xsi:schemaLocation="http://dozer.sourceforge.net
+      http://dozer.sourceforge.net/schema/beanmapping.xsd">
+    <mapping>
+        <class-a>babel.es.entity._graph</class-a>
+        <class-b>babel.es.domain.EventDomain</class-b>
+        <field>
+            <a>dtstart</a>
+            <b>startDate</b>
+        </field>
+        <field>
+            <a>dtend</a>
+            <b>endDate</b>
+        </field>
+        <field>
+            <a>event_location</a>
+            <b>location</b>
+        </field>
+    </mapping>
+</mappings>
